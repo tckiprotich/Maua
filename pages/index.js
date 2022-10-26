@@ -120,6 +120,6 @@ export async function getStaticProps() {
     props: {
       Images,
     },
-    revalidate: 1000,
+    revalidate: 10,
   };
 }
