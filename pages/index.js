@@ -79,7 +79,7 @@ export default function Home({ Images }) {
       </div>
     </nav>
 
-      <div className="flex items-center justify-center h-screen mb-0 bg-fixed bg-center bg-cover custom-img">
+      <div className="flex items-center justify-center h-screen mb-0 bg-fixed bg-center bg-cover custom-img ">
         <div className="h-screen absolute top-0 left-0 right-0 bottom-0 bg-black/40 z-[2]" />
         <div>
           <h1 className="text-5xl text-green-600  font-bold text-center justify-center mt-7-30 ">
@@ -186,6 +186,6 @@ export async function getStaticProps() {
     props: {
       Images,
     },
-    revalidate: 1000,
+    revalidate: 10,
   };
 }
