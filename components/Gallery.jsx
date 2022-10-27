@@ -2,8 +2,8 @@ import Image from 'next/image'
 export default function Gallery() {
   return (
     <div>
-      <div className=" mx-auto w-full max-w-md px-8 py-4 mt-16 bg-white rounded-lg shadow-lg dark:bg-gray-800">
-        <div className="flex justify-center -mt-16 md:justify-end">
+      <div className=" mx-auto w-full max-w-md px-8 py-4 mt-16 bg-white rounded-lg shadow-lg dark:bg-black mb-30">
+        <div className="flex justify-center -mt-16 md:justify-end dark:bg-gray-900">
           <Image
             className=" object-cover w-20 h-20 border-2 border-blue-500 rounded-full dark:border-blue-400"
             alt="Testimonial avatar"
