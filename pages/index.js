@@ -85,7 +85,7 @@ export default function Home({ Images }) {
           <h1 className="text-5xl text-green-600  font-bold text-center justify-center mt-7-30 ">
             Flowers bring color<br></br> to your world
           </h1>
-          <p className="pt-20  text-2xl  text-center w-500 mx-20">
+          <p className="pt-20  text-2xl text-purple-600  text-center w-500 mx-20">
             A flower’s appeal is in its contradictions — so delicate in form yet
             strong in fragrance, so small in size yet big in beauty, so short in
             life yet long on effect
