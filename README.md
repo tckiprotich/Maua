@@ -20,7 +20,7 @@ git clone https://github.com/tckiprotich/mau.git
 
 ## Install the project dependencies:
 
-## npm install
+ npm install
 
 ## Create a .env file at the root of your project and add your Hygraph CMS API key:
 
